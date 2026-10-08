@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    color: #1f2937;
+}
+
+/* Header */
+header {
+    background: #172554;
+    color: white;
+    padding: 25px 8%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 17px;
+    opacity: 0.9;
+}
+
+/* Main */
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 35px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    color: #172554;
+    margin-bottom: 15px;
+    font-size: 27px;
+}
+
+section p {
+    margin-bottom: 20px;
+    color: #64748b;
+}
+
+/* URL Input */
+#websiteUrl {
+    width: 70%;
+    padding: 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+}
+
+#websiteUrl:focus {
+    border-color: #2563eb;
+}
+
+/* Button */
+button {
+    padding: 14px 22px;
+    margin-left: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Result */
+#result {
+    min-height: 180px;
+}
+
+#result h2 {
+    color: #172554;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #172554;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+
+    main {
+        width: 92%;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    #websiteUrl {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
